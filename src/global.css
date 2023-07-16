@@ -6,6 +6,7 @@ body {
   text-shadow: 0 0 8px #fff;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 *,
@@ -43,4 +44,10 @@ body > div:hover {
     min-width: 350px;
     border-radius: 7.5px;
     height: 100%;
+}
+
+box {
+    display: flex;
+    height: auto;
+    flex-direction: column;  
 }
