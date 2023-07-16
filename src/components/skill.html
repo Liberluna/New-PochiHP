@@ -1,0 +1,81 @@
+<section>
+    <p class="skill-box-title">Skill</p>
+    <div class="skill-box-skills">
+        <div class="skill-box-skill">HTML&CSS <div class="s2"></div></div>
+        <div class="skill-box-skill">C&C++ <div class="s3"></div></div>
+        <div class="skill-box-skill">JavaScript <div class="s4"></div></div>
+        <div class="skill-box-skill">Python <div class="s3"></div></div>
+        <div class="skill-box-skill">VBA&VBS <div class="s5"></div></div>
+        <div class="skill-box-skill">KaliLinux <div class="s3"></div></div>
+    </div>
+</section>
+
+<style>
+    .skill-box-title {
+        font-size: 1.25em;
+        font-weight: lighter;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .skill-box-skills {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill-box-skill {
+        width: auto;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 20%;
+        transform: scale(1.2);
+    }
+
+    .s1::before,
+    .s2::before,
+    .s3::before,
+    .s4::before,
+    .s5::before {
+        color: yellow;
+        margin-left: 10px;
+    }
+
+    .s1::before {
+        content: " ★";
+    }
+
+    .s1::after {
+        content: "☆☆☆☆";
+    }
+
+    .s2::before {
+        content: " ★★";
+    }
+    
+    .s2::after {
+        content: "☆☆☆";
+    }
+
+    
+    .s3::before {
+        content: " ★★★";
+    }
+
+    .s3::after {
+        content: "☆☆";
+    }
+
+    .s4::before {
+        content: " ★★★★"
+    }
+
+    .s4::after {
+        content: "☆";
+    }
+
+    .s5::before {
+        content: " ★★★★★";
+    }
+</style>
