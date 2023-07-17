@@ -13,6 +13,7 @@ body {
 *::before,
 *::after {
     box-sizing: border-box;
+    transition: 1s all;
 }
 
 p,h1,h2,h3,h4,h5,h6 {
